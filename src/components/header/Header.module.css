@@ -1,0 +1,15 @@
+.header {
+    grid-area: header;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+}

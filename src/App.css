@@ -1,16 +1,19 @@
-.App {
-  padding: 60px;
+.app {
+  background: url("./images/bg.png") 100% repeat-y;
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+          "header header"
+          "nav content";
+  grid-gap: 20px;
+  grid-template-rows: 130px 1fr;
+  grid-template-columns: 2fr 10fr;
 }
 
-ul li {
-  padding: 20px;
-  font-size: 30px;
-  list-style-type: lower-greek;
-}
-
-a {
-  padding: 0 20px;
-  text-decoration: none;
-  color: blueviolet;
+.content {
+  grid-area: content;
+  color: white;
   font-size: 20px;
+  padding: 10px 20px;
 }
