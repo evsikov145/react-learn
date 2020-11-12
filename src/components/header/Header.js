@@ -1,13 +1,13 @@
-import logo from "../../images/logo.svg";
+
 import classes from './Header.module.css'
 import React from "react";
 
 const Header = () => {
     return (
         <header className={classes.header}>
-            <img className={classes.logo} src={logo} alt=""/>
+            <img className={classes.logo} src="/static/images/logo.svg" alt=""/>
             <div className={classes.title}>
-                IT-KAMASUTRA
+                Social Network
             </div>
         </header>
     )

@@ -15,18 +15,19 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b88685d3-9b5e-48d8-96f0-05ecaba5220d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav/Nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav/Nav.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/Profile.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +72,17 @@
       <workItem from="1604867665954" duration="4274000" />
       <workItem from="1605027415318" duration="593000" />
       <workItem from="1605038144796" duration="3448000" />
-      <workItem from="1605119390200" duration="4308000" />
+      <workItem from="1605119390200" duration="4546000" />
+      <workItem from="1605199157552" duration="3474000" />
     </task>
+    <task id="LOCAL-00001" summary="+">
+      <created>1605123980483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605123980483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,12 +93,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+" />
+    <option name="LAST_COMMIT_MESSAGE" value="+" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1605038300453">

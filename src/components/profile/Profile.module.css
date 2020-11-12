@@ -1,0 +1,123 @@
+.profile {
+
+}
+
+.banner {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner img {
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.avatar img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.desc {
+    flex-grow: 1;
+}
+
+.desc h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.desc p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.desc span {
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+}
+
+.form {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form input {
+    background: lightgray;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    min-height: 40px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.form button {
+    background: cadetblue;
+    color: white;
+    border-radius: 25px;
+    align-self: flex-end;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    max-width: 200px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.posts {
+    margin-bottom: 40px;
+}
+
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.item img {
+    max-width: 100px;
+}
+
+.pic {
+    width: 100px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+}
+
