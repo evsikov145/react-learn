@@ -1,5 +1,6 @@
 import React from "react";
 import classes from './Profile.module.css'
+import Posts from "./posts/Posts";
 
 const Profile = () => {
     return (
@@ -24,14 +25,7 @@ const Profile = () => {
                 <input type="text" placeholder="your news..."/>
                 <button>Send</button>
             </div>
-            <div className={classes.posts}>
-                <div className={classes.item}>
-                    <div className={classes.pic}>
-                        <img src="/static/images/avatar.svg" alt=""/>
-                    </div>
-                    <p>Wassssuuuuup!</p>
-                </div>
-            </div>
+            <Posts/>
 
         </section>
     )

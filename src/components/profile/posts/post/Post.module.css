@@ -1,0 +1,24 @@
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.item img {
+    max-width: 100px;
+}
+
+.pic {
+    width: 100px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+}
