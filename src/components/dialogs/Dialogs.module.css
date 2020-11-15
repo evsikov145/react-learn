@@ -1,0 +1,65 @@
+.section {
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    border-right: 2px solid white;
+    padding-right: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.active {
+    color: firebrick;
+    border-color: firebrick;
+}
+
+.message {
+    border-radius: 25px;
+    padding: 25px;
+    border: 1px solid snow;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 400px;
+}
+
+.avatar {
+    max-width: 60px;
+    margin-right: 20px;
+}
+
+.avatar img {
+    max-width: 60px;
+    max-height: 60px;
+    margin-bottom: 10px;
+}
+
+.avatar p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
+
+.text {
+    font-size: 18px;
+    color: white;
+}
